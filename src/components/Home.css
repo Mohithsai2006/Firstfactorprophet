@@ -1,0 +1,270 @@
+/* .home {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem auto;
+    padding: 2rem;
+    gap: 1rem;
+  }
+  
+  .home-container {
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 8px;
+    width: 45%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .home-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .home-container h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .home-container p {
+    color: #666;
+  }
+   */
+
+   /* .home {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem auto;
+    padding: 2rem;
+    gap: 2rem;
+    background-image: url(./pexels-buwanekab-761517\ \(1\).jpg); /* Update path */
+    /*background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Full page height */
+   /* color: white; /* Adjust text color for visibility */
+ /* }
+  
+  .home-container {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 8px;
+    width: 45%;
+    height: 350px; /* Taller for better readability */
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  
+  .home-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .home-container h2 {
+    margin-bottom: 1rem;
+    color: #060606;
+    font-size: 1.5rem; /* Slightly larger heading */
+ /* }
+  
+  .home-container p {
+    color: #060606;
+    font-size: 1.1rem; /* Slightly larger text for readability */
+  /*  text-align: center; /* Center the paragraph text */
+ /* }
+   */
+
+   /* Home Page Main Section */
+/* .home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 2rem;
+  background-image: url('./pexels-buwanekab-761517.jpg'); /* Update path */
+  /*background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Ensures full viewport height */
+  /*color: white;
+  gap: 2 rem;
+
+}
+
+/* Welcome Section */
+/*.welcome-section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.welcome-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #00bcd4; /* Vibrant blue color */
+  /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a subtle shadow */
+  /*animation: fadeInDown 2s ease-out; /* Smooth animation */
+/*}
+
+.welcome-subtitle {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #000000;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  animation: fadeInUp 2s ease-out;
+}
+
+/* Animation Effects */
+/*@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Home Containers */
+/*.home-container {
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+ /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0 1rem;
+  padding: 2rem;
+  margin-top: -20px;
+  border-radius: 8px;
+  width: 45%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.home-container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.home-container h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.home-container p {
+  color: #000000;
+  font-size: 1.2rem;
+  text-align: center;
+} */
+
+
+/* Ensure the body takes full height */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Home Container for Full Page */
+.home {
+  scroll-snap-type: y mandatory; /* Enables smooth snap scrolling */
+  overflow-y: scroll; /* Enables vertical scrolling */
+  height: 100vh; /* Full viewport height */
+}
+
+.home-container {
+  height: 100vh; /* Each container takes full height of the viewport */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Styling for the First Page */
+.first-page {
+  background-image: url('./pexels-buwanekab-761517\ \(1\).jpg'); /* Replace with your actual path */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling for the Second Page */
+.second-page {
+  background-color: rgba(219, 234, 350);
+  color: #000000;
+}
+
+.welcome-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.welcome-subtitle {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Scroll Snapping */
+.home-container {
+  scroll-snap-align: start; /* Aligns each section at the start */
+}
+#button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+#button:hover {
+  background-color: darkblue;
+}
+
+.district-selection {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.district-dropdown {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+#time-simulation-button {
+  padding: 5px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#time-simulation-button:hover {
+  background-color: #0056b3;
+}

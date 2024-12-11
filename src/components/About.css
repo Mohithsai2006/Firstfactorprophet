@@ -1,0 +1,18 @@
+.about {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #f0f0f0;
+    border-radius: 8px;
+  }
+  
+  .about h2 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .about p {
+    color: #666;
+    font-size: 1rem;
+  }
+  

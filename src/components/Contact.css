@@ -1,0 +1,18 @@
+.contact {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #e0f7fa;
+    border-radius: 8px;
+  }
+  
+  .contact h2 {
+    color: #00796b;
+    margin-bottom: 1rem;
+  }
+  
+  .contact p {
+    color: #004d40;
+    font-size: 1rem;
+  }
+  

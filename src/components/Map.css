@@ -1,0 +1,18 @@
+.map {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #fff3e0;
+    border-radius: 8px;
+  }
+  
+  .map h2 {
+    color: #e65100;
+    margin-bottom: 1rem;
+  }
+  
+  .map p {
+    color: #bf360c;
+    font-size: 1rem;
+  }
+  
