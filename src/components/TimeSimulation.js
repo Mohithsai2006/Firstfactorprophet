@@ -67,7 +67,7 @@ const TimeSimulation = () => {
           <ul>
             {Object.entries(forecastData.monthly_level).map(([month, level]) => (
               <li key={month}>
-                {month}: {level.toFixed(2)}
+                {month}: {typeof level === 'number' ? level.toFixed(2) : level}
               </li>
             ))}
           </ul>
@@ -75,7 +75,7 @@ const TimeSimulation = () => {
           <ul>
             {Object.entries(forecastData.monthly_storage).map(([month, storage]) => (
               <li key={month}>
-                {month}: {storage.toFixed(2)}
+                {month}: {typeof storage === 'number' ? storage.toFixed(2) : storage}
               </li>
             ))}
           </ul>
